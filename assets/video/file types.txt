@@ -1,7 +1,0 @@
-three video types
-
-.mp4
-.ogv
-.webm
-
-about 6 seconds
