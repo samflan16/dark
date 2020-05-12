@@ -1,11 +1,11 @@
 logo: # add logo name
-title: Bef - Enjoy Freedom
+title: G33kedOut - Line Up
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 permalink: ':title/'
-baseurl: "/bef" # the subpath of your site, e.g. /blog
+baseurl: "/dark" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
@@ -15,19 +15,26 @@ banner-desc: # add banner description
 
 # Author settings
 author-pic: face.jpg # your photo
-author-name: # your name
-about-author: # about author
-email: your-email@domain.com # your email
-phone: (496)-169-6557 # your pnone number
-website: https://dwayne.example.com # you website
+author-name: G33kedOut # your name
+about-author: 🧊 THE FREEZER 🧊 Out Now
+            <br>NJ | Dm me for features 📲
+            <br>LINK 2 SONG ⤵️
+            <br><a href="https://ampl.ink/pxKkb" target="_blank">ampl.ink/pxKkb</a> # about author
+email: amava.lin@gmail.com # your email
+phone: (000)-000-0000 # your pnone number
+website: https://www.instagram.com/g33kedout/?hl=en # your website
 
 # Social link
-google_url:    # add url link
+google_url:    https://www.google.com/search?q=g33kedout
 twitter_url:   # add url link
-instagram_url: # add url link
+instagram_url: https://www.instagram.com/g33kedout/?hl=en
 pinterest_url: # add url link
 dribbble_url:  # add url link
 facebook_url:  # add url link
+amazon_url: https://www.amazon.com/s?k=G33kedout&i=digital-music&search-type=ss&ref=ntt_srch_drd_B07Q1XX9J8
+spotify_url: https://open.spotify.com/artist/78Cd9Ax8wbxNyfaEQgrSUy
+soundcloud_url: https://soundcloud.com/geekedout
+apple_url: https://music.apple.com/us/artist/g33kedout/1457372205
 
 # Disqus
 discus_identifier: mr-brown # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
@@ -52,5 +59,6 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
 
+plugins: [jekyll-paginate]
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

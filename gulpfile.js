@@ -65,7 +65,7 @@ gulp.task('fonts', function() {
 
 // Watch scss, html, img files
 gulp.task('watch', function () {
-    gulp.watch('assets/css/sass/*.*', ['sass']);
+    gulp.watch('assets/css/sass/*.*', ['sass', 'jekyll-rebuild']);
     gulp.watch('assets/js/**/*.js', ['jekyll-rebuild']);
     gulp.watch('assets/img/**/*', ['img']);
     gulp.watch('assets/fonts/**/*', ['fonts']);    

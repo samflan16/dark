@@ -71,8 +71,7 @@ figure {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -309,8 +308,7 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -348,8 +346,7 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -945,8 +942,8 @@ template {
             transform: skewX(-0.78125deg) skewY(-0.78125deg);
   }
   77.7% {
-    -webkit-transform: skewX(0.39062deg) skewY(0.39062deg);
-            transform: skewX(0.39062deg) skewY(0.39062deg);
+    -webkit-transform: skewX(0.39063deg) skewY(0.39063deg);
+            transform: skewX(0.39063deg) skewY(0.39063deg);
   }
   88.8% {
     -webkit-transform: skewX(-0.19531deg) skewY(-0.19531deg);
@@ -980,8 +977,8 @@ template {
             transform: skewX(-0.78125deg) skewY(-0.78125deg);
   }
   77.7% {
-    -webkit-transform: skewX(0.39062deg) skewY(0.39062deg);
-            transform: skewX(0.39062deg) skewY(0.39062deg);
+    -webkit-transform: skewX(0.39063deg) skewY(0.39063deg);
+            transform: skewX(0.39063deg) skewY(0.39063deg);
   }
   88.8% {
     -webkit-transform: skewX(-0.19531deg) skewY(-0.19531deg);
@@ -3517,8 +3514,7 @@ template {
 
 .highlight {
   background-color: #faf9f9;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   margin: 0;
 }
 
@@ -3526,8 +3522,7 @@ template {
   color: #e74b3c;
   font-weight: 400;
   border: 1px solid #607D8B;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   padding: 0.1rem 0.5rem;
 }
 
@@ -3843,8 +3838,7 @@ template {
 }
 
 *, *::after, *::before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -3886,8 +3880,7 @@ blockquote p {
 
 input[type=email], input[type=text], input[type=tel], textarea {
   border: none;
-  -webkit-border-radius: 0.3rem;
-          border-radius: 0.3rem;
+  border-radius: 0.3rem;
   outline: none;
 }
 
@@ -3899,11 +3892,6 @@ cite {
   width: 1440px;
   max-width: 90%;
   margin: 0 auto;
-}
-
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .button_back {
@@ -3999,13 +3987,15 @@ cite {
 
 .chapters .chapter {
   position: relative;
-  width: 32.333%;
-  margin: 0 0.5% 1% 0.5%;
+  float: left;
+  width: 31.73%;
+  margin: 0 0.8% 1.7% 0.8%;
   overflow: hidden;
   -webkit-transition: -webkit-transform 0.4s;
   transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
   transition: transform 0.4s, -webkit-transform 0.4s;
+  border-radius: 50px;
 }
 
 .chapters .chapter a {
@@ -4087,8 +4077,7 @@ cite {
 .newsletter form .email_input {
   width: 100%;
   padding: 1.35rem 3rem;
-  -webkit-border-radius: 2.5rem;
-          border-radius: 2.5rem;
+  border-radius: 2.5rem;
   background-color: #333333;
   color: #6e6e6e;
   border: none;
@@ -4104,8 +4093,7 @@ cite {
   text-transform: uppercase;
   background-color: #c0334a;
   cursor: pointer;
-  -webkit-border-radius: 2.5rem;
-          border-radius: 2.5rem;
+  border-radius: 2.5rem;
   border: none;
   outline: none;
   position: absolute;
@@ -4154,8 +4142,7 @@ cite {
   position: fixed;
   bottom: 25px;
   background-color: #333333;
-  -webkit-border-radius: 0.3rem;
-          border-radius: 0.3rem;
+  border-radius: 0.3rem;
   color: #ffffff;
   font-size: 25px;
   width: 50px;
@@ -4218,8 +4205,7 @@ cite {
   margin: 0.3rem 0;
   text-decoration: none;
   font-size: 1.75rem;
-  -webkit-border-radius: 0.3rem;
-          border-radius: 0.3rem;
+  border-radius: 0.3rem;
   background-color: #262626;
   -webkit-transition: all .35s ease-in-out;
   transition: all .35s ease-in-out;
@@ -4367,8 +4353,7 @@ cite {
 .author .author_image {
   float: left;
   display: inline-block;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   width: 100px;
   height: 100px;
   overflow: hidden;
@@ -4488,11 +4473,9 @@ cite {
   float: left;
   margin: 0 0.5rem 0.5rem 0;
   border: 1px solid #c0334a;
-  -webkit-border-radius: 0.5rem;
-          border-radius: 0.5rem;
+  border-radius: 0.5rem;
   background-color: #d25469;
-  -webkit-box-shadow: 0 2px 0 #c0334a;
-          box-shadow: 0 2px 0 #c0334a;
+  box-shadow: 0 2px 0 #c0334a;
   -webkit-transition: all .35s;
   transition: all .35s;
 }
@@ -4539,8 +4522,7 @@ cite {
 
 .about_box {
   position: absolute;
-  -webkit-border-radius: 0.5rem;
-          border-radius: 0.5rem;
+  border-radius: 0.5rem;
   width: 600px;
   max-width: 90%;
   top: 50%;
@@ -4563,8 +4545,7 @@ cite {
 }
 
 .about .author {
-  -webkit-border-radius: 0.5rem;
-          border-radius: 0.5rem;
+  border-radius: 0.5rem;
   margin-bottom: 1rem;
 }
 
@@ -4580,8 +4561,7 @@ cite {
 }
 
 .about .about_social {
-  -webkit-border-radius: 0.5rem;
-          border-radius: 0.5rem;
+  border-radius: 0.5rem;
   overflow: hidden;
 }
 
@@ -4667,8 +4647,7 @@ cite {
   border: none;
   background-color: rgba(255, 255, 255, 0.4);
   padding: 1rem 3rem;
-  -webkit-border-radius: 3rem;
-          border-radius: 3rem;
+  border-radius: 3rem;
   cursor: pointer;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -4796,8 +4775,7 @@ cite {
   .newsletter form .email_input {
     width: 100%;
     padding: 1rem 2.5rem;
-    -webkit-border-radius: 2.5rem;
-            border-radius: 2.5rem;
+    border-radius: 2.5rem;
     font-size: 0.9rem;
   }
   .newsletter form .subscribe_btn {
@@ -4812,8 +4790,7 @@ cite {
   .social_footer a {
     padding: 0.5rem 1rem;
     font-size: 1.35rem;
-    -webkit-border-radius: 0.3rem;
-            border-radius: 0.3rem;
+    border-radius: 0.3rem;
   }
   .copyright {
     padding: 1rem 0;
@@ -4873,8 +4850,7 @@ cite {
   .author .author_image {
     float: none;
     display: block;
-    -webkit-border-radius: 50%;
-            border-radius: 50%;
+    border-radius: 50%;
     width: 100px;
     height: 100px;
     margin: 0 auto 1.75rem;
