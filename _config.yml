@@ -17,7 +17,7 @@ banner-desc: # add banner description
 author-pic: face.jpg # your photo
 author-name: G33kedOut # your name
 about-author: 🧊 THE FREEZER 🧊 Out Now
-            <br>NJ | Dm me for features 📲
+            <br>NJ | DM me for features 📲
             <br>LINK 2 SONG ⤵️
             <br><a href="https://ampl.ink/pxKkb" target="_blank">ampl.ink/pxKkb</a> # about author
 email: amava.lin@gmail.com # your email
@@ -37,10 +37,10 @@ soundcloud_url: https://soundcloud.com/geekedout
 apple_url: https://music.apple.com/us/artist/g33kedout/1457372205
 
 # Disqus
-discus_identifier: mr-brown # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
+discus_identifier: G33kedOut # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
 
 # Newsletter
-mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+mailchimp: https://github.us18.list-manage.com/subscribe/post?u=a9db9904960ba10050539d7b6&amp;id=f05a28c1c9 # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
 # Tracker
 analytics:

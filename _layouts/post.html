@@ -57,6 +57,11 @@ layout: default
           {% else %}
           <span class="author_phone"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+496-169-65-57">(496)-169-6557</a></span>
           {% endif %} -->
+          {% if site.spotify_url %}
+          <span class="author_spotify"><i class="fa fa-spotify" aria-hidden="true"></i> <a href="{{site.spotify_url}}" target="_blank">Listen on Spotify</a></span>
+          {% else %}
+          <span class="author_spotify"><i class="fa fa-spotify" aria-hidden="true"></i> <a href="#" target="_blank">https://dwayne.example.com</a></span>
+          {% endif %} 
           {% if site.website %}
           <span class="author_website"><i class="fa fa-envelope" aria-hidden="true"></i> <a href="{{site.website}}" target="_blank">DM me on Instagram</a></span>
           {% else %}

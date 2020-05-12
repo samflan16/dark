@@ -4248,7 +4248,7 @@ cite {
 .post_content {
   width: 960px;
   max-width: 90%;
-  margin: 7rem auto 7rem;
+  margin: 5rem auto 5rem;
 }
 
 .post {
@@ -4423,6 +4423,7 @@ cite {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 20px;
 }
 
 .recent_box .recent_list .recent_item:hover {
