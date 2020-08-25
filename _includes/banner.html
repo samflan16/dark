@@ -2,8 +2,47 @@
 <section id="banner" data-vide-bg="{{site.baseurl}}/assets/video/{% if site.video %}{{ site.video }}{% endif %}" data-vide-options="posterType: jpg, loop: true, muted: false, position: 50% 50%">
   <div class="wrapper">
     <div class="content">
-      <h1 class="title">{% if site.banner-title %}{{ site.banner-title }}{% else %}Line Up{% endif %}</h1>
-      <h2 class="sub_title">{% if site.banner-desc %}{{ site.banner-desc }}{% else %}But now my time's up, I need to find a way to climb up{% endif %}</h2>
+      <p>
+      <h1 class="title"> G33kedOut </h1>
+      <h2 class="sub_title">"The 17 year old artist, born and raised in New Jersey brings a unique flow to the hiphop world. Sounds ranging from vibey to hype with his top song "Line Up" coming up on the 200k mark."</h2>
+      <iframe src="https://open.spotify.com/embed/artist/78Cd9Ax8wbxNyfaEQgrSUy" width="100%" height="250px" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </p>
+      <h1 class="title">{% if site.banner-title %}{{ site.banner-title }}{% else %}"Line Up"{% endif %}</h1>
+      <h2 class="sub_title">{% if site.banner-desc %}{{ site.banner-desc }}{% else %}“The whole secret of a successful life is to find out what is one’s destiny to do, and then do it.”– Henry Ford{% endif %}</h2>
+      <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/624991362&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/g33kedout" title="G33kedOut" target="_blank" style="color: #cccccc; text-decoration: none;">G33kedOut</a> · <a href="https://soundcloud.com/g33kedout/line-up" title="Line Up" target="_blank" style="color: #cccccc; text-decoration: none;">Line Up</a></div>
+      <h2 class="sub_title"><marquee behavior="scroll" direction="left">!!NEW SONG &nbsp; Space Cadet &nbsp; (OUT NOW) &nbsp; ----- &nbsp; Social Medias & Music Platforms Below!! </marquee></h2>
+<ul class="social_footer">
+  {% if site.spotify_url %}
+  <li><a href="{{ site.spotify_url }}" target="_blank"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
+  {% else %}
+  <li><a href="#" target="_blank"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
+  {% endif %}
+  {% if site.soundcloud_url %}
+  <li><a href="{{ site.soundcloud_url }}" target="_blank"><i class="fa fa-soundcloud" aria-hidden="true"></i></a></li>
+  {% else %}
+  <li><a href="#" target="_blank"><i class="fa fa-soundcloud" aria-hidden="true"></i></a></li>
+  {% endif %}
+  {% if site.apple_url %} 
+  <li><a href="{{ site.apple_url }}" target="_blank"><i class="fa fa-apple" aria-hidden="true"></i></a></li>
+  {% else %} 
+  <li><a href="#" target="_blank"><i class="fa fa-apple" aria-hidden="true"></i></a></li>
+  {% endif %} 
+  {% if site.google_url %}
+  <li><a href="{{ site.google_url }}" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+  {% else %}
+  <li><a href="#" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a></li>      
+  {% endif %}
+  {% if site.amazon_url %}
+  <li><a href="{{ site.amazon_url }}" target="_blank"><i class="fa fa-amazon" aria-hidden="true"></i></a></li>
+  {% else %}
+  <li><a href="#" target="_blank"><i class="fa fa-amazon" aria-hidden="true"></i></a></li>
+  {% endif %}
+  {% if site.instagram_url %}
+  <li><a href="{{ site.instagram_url }}" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+  {% else %}
+  <li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+  {% endif %}
+</ul>
     </div>
   </div>
 </section> <!-- End Section Banner -->
